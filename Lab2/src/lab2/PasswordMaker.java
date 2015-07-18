@@ -19,7 +19,7 @@ public class PasswordMaker {
 		
 		// obtinem  sirul din 10 caractere
 		RandomStringGenerator q = new RandomStringGenerator(10, MAGIC_STRING);
-		String str = q.next();
+		String str = q.next();// str e alfabetul
 		RandomStringGenerator r = new RandomStringGenerator(MAGIC_NUMBER, str);
 		String string2 = r.next();
 		
