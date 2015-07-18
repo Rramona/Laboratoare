@@ -27,8 +27,7 @@ public class PasswordMaker {
 		String string3 = Integer.toString(x);
 		
 		String string4 = string1 + string2 + string3;
-		
+				
 		return string4;
-		
 	}	
 }
