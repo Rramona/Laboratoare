@@ -20,6 +20,15 @@ public class Test {
 		// bulina 2
 		System.out.println(student);
 		
+		// exercitiul 3
+		System.out.println("Exercitiul 3");
+		System.out.println(student.equals(student));
+		
+		// exercitiul 4
+		System.out.println("Exercitiul 4");
+		Persoana pers = new Persoana();
+		
+		
 		
 	}
 

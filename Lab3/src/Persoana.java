@@ -1,6 +1,6 @@
 
 public class Persoana {
-		private String nume = "Maraaaa";
+		public String nume = "Maraaaa";
 		
 		public String toString () {
 			return nume;
