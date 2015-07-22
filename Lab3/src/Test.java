@@ -36,8 +36,7 @@ public class Test {
 		// parcurg  vectrul si apelez metoda toString
 		for (int i = 0; i < 10; i++)
 			System.out.println(pers[i].toString());
-		
-		
-	}
-
+			}
+		// ce trebuie sa observ?
+	
 }
