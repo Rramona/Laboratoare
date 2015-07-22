@@ -26,8 +26,16 @@ public class Test {
 		
 		// exercitiul 4
 		System.out.println("Exercitiul 4");
-		Persoana pers = new Persoana();
+		Persoana[] pers = new Persoana[10];
+		// punem in vectr obiecte de tip sudent  si profesor (pun un student apoi un prof)
+		for (int i = 0; i < 9; i = i + 2) {
+			pers[i] = student; // sau pers[i] = (Persoana)student;
+			pers[i + 1] = (Persoana)profesor;
+		}
 		
+		// parcurg  vectrul si apelez metoda toString
+		for (int i = 0; i < 10; i++)
+			System.out.println(pers[i].toString());
 		
 		
 	}
