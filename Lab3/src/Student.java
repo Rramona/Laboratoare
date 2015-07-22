@@ -32,4 +32,12 @@ public class Student extends  Persoana{
 		else 			
 			return false;
 	}	
+	//exrcitiul 5
+	// bulina 1
+	public String invata () {
+		String numee = super.toString();
+		String actiune = " invata";
+		String string = numee + actiune;
+		return string;		
+	}
 }

@@ -22,4 +22,13 @@ public class Profesor extends Persoana {
 		String string4 = string1 + string2 + string3;
 		return string4;
 	}
+	
+	//exrcitiul 5
+	// bulina 1
+	public String preda () {
+		String numee = super.toString();
+		String actiune = " preda";
+		String string = numee + actiune;
+		return string;		
+	}
 }

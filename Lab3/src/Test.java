@@ -1,3 +1,4 @@
+import org.omg.Messaging.SyncScopeHelper;
 
 public class Test {
 
@@ -36,7 +37,40 @@ public class Test {
 		// parcurg  vectrul si apelez metoda toString
 		for (int i = 0; i < 10; i++)
 			System.out.println(pers[i].toString());
-			}
+		
 		// ce trebuie sa observ?
-	
+		
+		// exercitiul 5
+		System.out.println("Exercitiul 5");
+		
+		// bulina 1
+		System.out.println(profesor.preda());
+		System.out.println(student.invata());
+		
+		// bulina 2
+		System.out.println("====================================================");
+		for (int i = 0; i < 10; i++) {
+			if (!(pers[i] instanceof Profesor))
+						; // nu fac nimic ca poate e de tipul student
+			else {
+			// in acest punct stiu sigur ca pers[i] e de tipul profesor
+			// fac cast-ul
+				Profesor p = (Profesor)pers[i];
+				String string1 = p.preda();
+				System.out.println(string1);
+			}
+			
+		/*	if (!(pers[i] instanceof Student)) // pt bulina 3 scot aceasta bucata de cod
+				continue;
+			else {
+				Student s = (Student)pers[i];
+				String string2 = s.invata();
+				System.out.println(string2);
+			}*/
+		}
+		
+		// bulina 3 obesrv ca nu se face cast-ul daca obiectul nu e de tipul Prof
+		
+	}
+		
 }
