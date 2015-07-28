@@ -71,6 +71,12 @@ public class Test {
 		
 		// bulina 3 obesrv ca nu se face cast-ul daca obiectul nu e de tipul Prof
 		
+		
+		// exercitiul 6
+		System.out.println("Exercitiul 6");
+		Stiva stiva = new Stiva();
+		int x = stiva.Push();
+		System.out.println("push " + x);
 	}
 		
 }
