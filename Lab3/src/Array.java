@@ -7,7 +7,10 @@ public class Array {
 	public static final int ERROR = Integer.MIN_VALUE;
 	
 	// vectorul din spate
-	private int a[];
+	//protected int a[];
+	
+	//eu il facui public
+	public int a[];
 	
 	public Array() {
 		this(10);
@@ -92,6 +95,13 @@ public class Array {
 			System.out.println(val);
 		else
 			System.out.println("Error retrieving value");
+		
+		Stiva stiva = new Stiva();
+		int x = stiva.Push();
+		System.out.println("push " + x);
+		
+		int y = stiva.Pop();
+		System.out.println("Pop " + y);
 		}
 
 }
