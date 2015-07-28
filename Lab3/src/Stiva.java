@@ -1,11 +1,11 @@
 
-public class Stiva {
+public class Stiva  extends Array {
+	
 	// implementata cu mostenire
 	Integer[] elemente = new Integer[10];
 	Array b = new Array();
 	
-	
-	public int Push extends int Array () {
+	public int Push  () {
 		// verificam daca stiva este plina
 		if (b.get(elemente.length) != 0)
 			return b.ERROR;
@@ -20,7 +20,7 @@ public class Stiva {
 			
 			// stim ce vectorul din clasa Array e plin cu zerouri // ca sa nu suprascriu
 			if (b.get(i) == 0){
-				elemente[i]= b.set(i, 9);
+				 b.set(i, 9);
 				System.out.println(elemente[i]);
 			}
 			else
