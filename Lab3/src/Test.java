@@ -74,11 +74,18 @@ public class Test {
 		
 		// exercitiul 6
 		System.out.println("Exercitiul 6");
+		System.out.println("Implementare cu mostenire");
 		SStiva stiva = new SStiva();
 		int x = stiva.push(5);
 		int y = stiva.pop();
 		System.out.println("push " + x);
 		System.out.println("pop " + y);
+		System.out.println("Implementare cu agregare");
+		SSStiva st = new  SSStiva();
+		int q = st.push(8);
+		int w = st.pop();
+		System.out.println("push " + q);
+		System.out.println("pop " + w);
 	}
 		
 }

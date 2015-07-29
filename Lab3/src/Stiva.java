@@ -1,7 +1,7 @@
 
 public class Stiva  extends Array {
 	
-	// implementata cu mostenire
+	// implementata cu mostenire ---- nu e buna
 	Integer[] elemente = new Integer[10];
 	Array b = new Array();
 	int pos;

@@ -95,4 +95,6 @@ public class Array {
 		System.out.println("Pop " + y);
 		}
 
+	
+
 }
