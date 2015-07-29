@@ -7,10 +7,7 @@ public class Array {
 	public static final int ERROR = Integer.MIN_VALUE;
 	
 	// vectorul din spate
-	//protected int a[];
-	
-	//eu il facui public
-	public int a[];
+	protected int a[];
 	
 	public Array() {
 		this(10);
@@ -74,12 +71,6 @@ public class Array {
 		else
 			System.out.println("Error adding value");
 			
-		// -  - - - - - - - -- - - - - -
-		if ( array.set(2, 98) != Array.ERROR) 
-			System.out.println(array);
-		else
-			System.out.println("Error adding value");
-		
 		//*********** EXEMPLE DE OBTINERE ******************
 		
 		//obtinere corecta

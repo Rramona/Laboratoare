@@ -74,9 +74,11 @@ public class Test {
 		
 		// exercitiul 6
 		System.out.println("Exercitiul 6");
-		Stiva stiva = new Stiva();
-		int x = stiva.Push();
+		SStiva stiva = new SStiva();
+		int x = stiva.push(5);
+		int y = stiva.pop();
 		System.out.println("push " + x);
+		System.out.println("pop " + y);
 	}
 		
 }
